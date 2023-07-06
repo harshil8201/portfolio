@@ -1,0 +1,72 @@
+import React from "react";
+import SocialMedia from "../hooks/SocialMedia";
+import Gmail from "../assets/social medias/gmail.png";
+import Github from "../assets/social medias/github.png";
+import Instagram from "../assets/social medias/instagram.png";
+import Facebook from "../assets/social medias/facebook.png";
+import LinkedIn from "../assets/social medias/linkedin.png";
+import Upwork from "../assets/social medias/upwork.png";
+
+const InfoCard = () => {
+  const handleEmailClick = () => {
+    const mailtoLink = `mailto:harshilpatel33h@gmail.com`;
+    window.location.href = mailtoLink;
+  };
+
+  return (
+    <div>
+      {/* ------------------- Desktop ----------------------*/}
+      <div className="bg-colorDarkWhite w-full py-[30px] lg:flex flex-col hidden -mt-5 justify-center items-center">
+        <p className="text-3xl text-colorRed uppercase font-semibold tracking-wide">
+          Harshil Patel
+        </p>
+        <p className="text-colorBlack capitalize mt-1">Full stack developer</p>
+        <div className="flex flex-row gap-4 items-center my-10">
+          <div className="h-[45px] w-[45px] rounded-lg bg-white drop-shadow-2xl flex justify-center items-center cursor-pointer">
+            <img
+              src={Gmail}
+              className="w-full h-full p-[10px] object-cover"
+              alt="Wait"
+              onClick={handleEmailClick}
+            />
+          </div>
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={Github}
+            Url={"https://github.com/Harshil-Patel-8201"}
+          />
+          {/* <SocialMedia
+            size={"45px"}
+            ImgUrl={Instagram}
+            Url={"https://instagram.com/harshil_8201?igshid=MzNlNGNkZWQ4Mg=="}
+          />
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={Facebook}
+            Url={"https://www.facebook.com/harshil.patel.8201?mibextid=ZbWKwL"}
+          /> */}
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={LinkedIn}
+            Url={"https://www.linkedin.com/in/harshil-patel-312186210/"}
+          />
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={Upwork}
+            Url={
+              "https://www.upwork.com/freelancers/~01c36fc5954ec77e17?viewMode=1"
+            }
+          />
+        </div>
+        <p className="text-center text-sm text-colorBlack font-light capitalize">
+          © copyright 2023. All rights reserved.
+        </p>
+        <p className="flex flex-row items-center text-center text-sm text-colorBlack font-light gap-1 capitalize">
+          Design by <p className="text-colorRed font-normal"> Harshil Patel</p>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default InfoCard;
