@@ -3,7 +3,7 @@ import React from "react";
 const SkillsHook = ({ skillUrl, skillName }) => {
   return (
     <div>
-      <div className="hidden lg:flex flex-col gap-2 justify-center items-center">
+      <div className="hidden md:flex flex-col gap-2 justify-center items-center">
         <img
           src={skillUrl}
           className="w-[70px] h-[70px] object-contain bg-transparent"
@@ -13,7 +13,7 @@ const SkillsHook = ({ skillUrl, skillName }) => {
       </div>
 
       {/* Mobile */}
-      <div className="lg:hidden flex flex-col gap-2 justify-center items-center">
+      <div className="md:hidden flex flex-col gap-2 justify-center items-center">
         <img
           src={skillUrl}
           className="w-[30px] h-[30px] object-contain bg-transparent"

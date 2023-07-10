@@ -4,7 +4,7 @@ import { ImGithub } from "react-icons/im";
 const PortfolioHooks = ({ position, url, name, des, link }) => {
   return (
     <div>
-      <div className="hidden lg:flex flex-row gap-20 items-center">
+      <div className="hidden md:flex flex-row gap-20 md:gap-5 items-center">
         {position === 0 && (
           <img
             src={url}
@@ -41,7 +41,7 @@ const PortfolioHooks = ({ position, url, name, des, link }) => {
       </div>
 
       {/* mobile */}
-      <div className="w-screen h-full lg:hidden flex flex-col gap-5 justify-center items-center">
+      <div className="w-screen h-full md:hidden flex flex-col gap-5 justify-center items-center">
         <img
           src={url}
           className="w-[100%] h-auto object-cover object-top"

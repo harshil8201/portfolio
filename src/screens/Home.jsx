@@ -17,12 +17,12 @@ const Home = () => {
   return (
     <div name="home">
       {/* ------------------- Desktop ----------------------*/}
-      <div className="mt-[140px] bg-colorWhite lg:flex hidden flex-row items-center justify-between">
+      <div className="mt-[140px] bg-colorWhite md:flex hidden flex-row items-center justify-between md:px-5">
         <div className="flex flex-col text-left">
           <p className="text-xs text-colorDarkGray uppercase">
             Welcome to my world
           </p>
-          <p className="text-4xl capitalize mt-10 font-semibold text-colorBlack flex flex-row gap-2 tracking-wide">
+          <p className="lg:text-4xl capitalize mt-10 font-semibold text-colorBlack flex flex-row gap-2 tracking-wide md:text-3xl">
             👋🏼 Hi, i’m <p className="text-colorRed">Harshil Patel</p>
           </p>
           <p className="flex flexr-ow gap-1 text-colorBlack font-semibold uppercase text-lg mt-2">
@@ -78,13 +78,13 @@ const Home = () => {
 
         <img
           src={Profile}
-          className="w-[270px] h-[270px] rounded-full border-4 border-colorDarkWhite"
+          className="lg:w-[270px] lg:h-[270px] md:w-[230px] md:h-[230px]  rounded-full border-4 border-colorDarkWhite"
           alt=""
         />
       </div>
 
       {/* ------------------- Mobile ----------------------*/}
-      <div className="lg:hidden flex flex-col justify-center items-center mt-[80px]">
+      <div className="md:hidden flex flex-col justify-center items-center mt-[80px]">
         <p className="text-[10px] text-colorDarkGray uppercase">
           Welcome to my world
         </p>

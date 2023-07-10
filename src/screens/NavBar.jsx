@@ -23,7 +23,7 @@ const NavBar = () => {
   return (
     <div>
       {/* ------------------- Desktop ----------------------*/}
-      <header className="z-50 fixed w-screen bg-colorWhite shadow-lg shadow-black/5 flex-row justify-between items-center px-[70px] py-[15px] lg:flex hidden">
+      <header className="z-50 fixed w-screen bg-colorWhite shadow-lg shadow-black/5 flex-row justify-between items-center lg:px-[70px] py-[15px] md:px-5 md:flex hidden">
         {/* harshil.dev */}
         <Link to="home" smooth={true} duration={10}>
           <div className="flex flex-row gap-3 items-center cursor-pointer">
@@ -115,7 +115,7 @@ const NavBar = () => {
       </header>
 
       {/* ------------------- Mobile ----------------------*/}
-      <header className="z-30 fixed w-screen lg:hidden flex bg-colorWhite shadow-lg shadow-black/5 flex-row justify-between items-center px-[14px] py-[10px]">
+      <header className="z-30 fixed w-screen md:hidden flex bg-colorWhite shadow-lg shadow-black/5 flex-row justify-between items-center px-[14px] py-[10px]">
         <TiThMenu className="text-lg" onClick={() => openDrawer(true)} />
 
         {/* harshil.dev */}
@@ -139,7 +139,7 @@ const NavBar = () => {
               {/* options */}
               <ul className="flex flex-col text-left px-[20px] gap-5 text-sm uppercase font-semibold">
                 <Link to="home" smooth={true} duration={10}>
-                  <motion.li
+                  <li
                     className={`cursor-pointer ${
                       activeTab === "home"
                         ? "text-colorRed"
@@ -148,11 +148,11 @@ const NavBar = () => {
                     onClick={() => handleTabColor("home")}
                   >
                     home
-                  </motion.li>
+                  </li>
                 </Link>
 
                 <Link to="about" smooth={true} duration={10}>
-                  <motion.li
+                  <li
                     className={`cursor-pointer ${
                       activeTab === "about"
                         ? "text-colorRed"
@@ -161,11 +161,11 @@ const NavBar = () => {
                     onClick={() => handleTabColor("about")}
                   >
                     about
-                  </motion.li>
+                  </li>
                 </Link>
 
                 <Link to="skills" smooth={true} duration={10}>
-                  <motion.li
+                  <li
                     className={`cursor-pointer ${
                       activeTab === "skill"
                         ? "text-colorRed"
@@ -174,11 +174,11 @@ const NavBar = () => {
                     onClick={() => handleTabColor("skill")}
                   >
                     skills
-                  </motion.li>
+                  </li>
                 </Link>
 
                 <Link to="portfolio" smooth={true} duration={10}>
-                  <motion.li
+                  <li
                     className={`cursor-pointer ${
                       activeTab === "portfolio"
                         ? "text-colorRed"
@@ -187,11 +187,11 @@ const NavBar = () => {
                     onClick={() => handleTabColor("portfolio")}
                   >
                     portfolio
-                  </motion.li>
+                  </li>
                 </Link>
 
                 <Link to="service" smooth={true} duration={10}>
-                  <motion.li
+                  <li
                     className={`cursor-pointer ${
                       activeTab === "service"
                         ? "text-colorRed"
@@ -200,11 +200,11 @@ const NavBar = () => {
                     onClick={() => handleTabColor("service")}
                   >
                     service
-                  </motion.li>
+                  </li>
                 </Link>
 
                 <Link to="contact" smooth={true} duration={10}>
-                  <motion.li
+                  <li
                     className={`cursor-pointer ${
                       activeTab === "contact"
                         ? "text-colorRed"
@@ -213,7 +213,7 @@ const NavBar = () => {
                     onClick={() => handleTabColor("contact")}
                   >
                     contact
-                  </motion.li>
+                  </li>
                 </Link>
               </ul>
             </div>

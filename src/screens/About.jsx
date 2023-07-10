@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div name="about">
       {/* ------------------- Desktop ----------------------*/}
-      <div className="mt-[110px] bg-colorWhite lg:flex hidden flex-col text-left">
+      <div className="mt-[110px] bg-colorWhite md:flex md:px-5 hidden flex-col text-left">
         <p className="uppercase text-3xl font-semibold text-colorRed mb-7">
           📌 ABOUT ME
         </p>
@@ -66,7 +66,7 @@ const About = () => {
       </div>
 
       {/* ------------------- Mobile ----------------------*/}
-      <div className="lg:hidden flex mt-[70px] flex-col justify-center items-center">
+      <div className="md:hidden flex mt-[70px] flex-col justify-center items-center">
         <p className="uppercase text-xl font-semibold text-colorRed mb-5">
           📌 ABOUT ME
         </p>

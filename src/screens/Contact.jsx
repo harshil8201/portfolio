@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div name="contact">
       {/* ------------------- Desktop ----------------------*/}
-      <div className="mt-[110px] bg-colorWhite lg:flex hidden flex-col text-left">
+      <div className="mt-[110px] bg-colorWhite md:flex md:px-5 hidden flex-col text-left">
         <p className="mb-7 uppercase text-3xl font-semibold text-colorRed">
           📌 contact
         </p>
@@ -28,7 +28,7 @@ const Contact = () => {
       </div>
 
       {/* ------------------- Mobile ----------------------*/}
-      <div className="lg:hidden flex mt-[70px] flex-col">
+      <div className="md:hidden flex mt-[70px] flex-col">
         <p className="mb-7 uppercase text-xl font-semibold text-colorRed">
           📌 contact
         </p>

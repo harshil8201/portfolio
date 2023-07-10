@@ -16,7 +16,7 @@ const InfoCard = () => {
   return (
     <div>
       {/* ------------------- Desktop ----------------------*/}
-      <div className="bg-colorDarkWhite w-full py-[30px] lg:flex flex-col hidden justify-center items-center mt-[50px] ">
+      <div className="bg-colorDarkWhite w-full py-[30px] md:flex flex-col hidden justify-center items-center mt-[50px] ">
         <p className="text-3xl text-colorRed uppercase font-semibold tracking-wide">
           Harshil Patel
         </p>
@@ -67,7 +67,7 @@ const InfoCard = () => {
       </div>
 
       {/* ------------------- Mobile ----------------------*/}
-      <div className="lg:hidden flex mt-[40px] bg-colorDarkWhite w-full flex-col py-[15px]">
+      <div className="md:hidden flex mt-[40px] bg-colorDarkWhite w-full flex-col py-[15px]">
         <p className="text-xl text-colorRed uppercase font-semibold tracking-wide">
           Harshil Patel
         </p>
