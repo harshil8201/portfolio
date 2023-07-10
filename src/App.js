@@ -10,14 +10,24 @@ import InfoCard from "./screens/InfoCard";
 
 function App() {
   return (
-    <div className="App gap-[130px] flex flex-col">
+    <div className="App flex flex-col">
       <NavBar />
-      <Home />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Service />
-      <Contact />
+      <div className="w-[800px] lg:flex hidden flex-col mx-auto">
+        <Home />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Service />
+        <Contact />
+      </div>
+      <div className="w-screen flex lg:hidden flex-col mx-auto px-[15px]">
+        <Home />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Service />
+        <Contact />
+      </div>
       <InfoCard />
     </div>
   );

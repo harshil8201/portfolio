@@ -15,9 +15,9 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div name="home">
       {/* ------------------- Desktop ----------------------*/}
-      <div className="bg-colorWhite lg:flex hidden flex-row items-center justify-between -mt-10  px-[200px]">
+      <div className="mt-[140px] bg-colorWhite lg:flex hidden flex-row items-center justify-between">
         <div className="flex flex-col text-left">
           <p className="text-xs text-colorDarkGray uppercase">
             Welcome to my world
@@ -81,6 +81,67 @@ const Home = () => {
           className="w-[270px] h-[270px] rounded-full border-4 border-colorDarkWhite"
           alt=""
         />
+      </div>
+
+      {/* ------------------- Mobile ----------------------*/}
+      <div className="lg:hidden flex flex-col justify-center items-center mt-[80px]">
+        <p className="text-[10px] text-colorDarkGray uppercase">
+          Welcome to my world
+        </p>
+        <img
+          src={Profile}
+          className="mt-[20px] w-[150px] h-[150px] rounded-full border-4 border-colorDarkWhite"
+          alt=""
+        />
+        <p className="text-xl capitalize font-semibold text-colorBlack flex flex-row gap-2 tracking-wide mt-2">
+          👋🏼 Hi, i’m <p className="text-colorRed">Harshil Patel</p>
+        </p>
+        <p className="flex flex-row gap-1 text-colorBlack font-semibold uppercase text-sm mt-1">
+          <p className="text-colorRed">A</p> Full Stack developer
+        </p>
+        <p className="mt-3 text-[10px] capitalize text-colorDarkGray">
+          Based in gujarat, india 📍
+        </p>
+        <p className="mt-10 text-colorBlack text-xs uppercase font-medium">
+          FIND ME HERE
+        </p>
+        <div className="flex flex-row gap-2 mt-5 items-center">
+          <div className="h-[45px] w-[45px] rounded-lg bg-white drop-shadow-2xl flex justify-center items-center cursor-pointer">
+            <img
+              src={Gmail}
+              className="w-full h-full p-[10px] object-cover"
+              alt="Wait"
+              onClick={handleEmailClick}
+            />
+          </div>
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={Github}
+            Url={"https://github.com/Harshil-Patel-8201"}
+          />
+          {/* <SocialMedia
+            size={"45px"}
+            ImgUrl={Instagram}
+            Url={"https://instagram.com/harshil_8201?igshid=MzNlNGNkZWQ4Mg=="}
+          />
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={Facebook}
+            Url={"https://www.facebook.com/harshil.patel.8201?mibextid=ZbWKwL"}
+          /> */}
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={LinkedIn}
+            Url={"https://www.linkedin.com/in/harshil-patel-312186210/"}
+          />
+          <SocialMedia
+            size={"45px"}
+            ImgUrl={Upwork}
+            Url={
+              "https://www.upwork.com/freelancers/~01c36fc5954ec77e17?viewMode=1"
+            }
+          />
+        </div>
       </div>
     </div>
   );
