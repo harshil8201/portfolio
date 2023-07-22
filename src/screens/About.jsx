@@ -40,7 +40,7 @@ const About = () => {
             My GitHub profile:{" "}
             <a
               href="https://github.com/Harshil-Patel-8201"
-              className="text-colorBlue cursor-pointer underline"
+              className="text-colorBlue cursor-pointer underline font-medium"
             >
               https://github.com/Harshil-Patel-8201
             </a>{" "}
@@ -56,7 +56,7 @@ const About = () => {
             Till then check out my latest challenge :{" "}
             <a
               href="https://github.com/Harshil-Patel-8201/30-Days-with-React.js"
-              className="text-colorBlue cursor-pointer underline capitalize"
+              className="text-colorBlue cursor-pointer underline capitalize font-medium"
             >
               30 days with react.js
             </a>{" "}
@@ -102,7 +102,7 @@ const About = () => {
             My GitHub profile:{" "}
             <a
               href="https://github.com/Harshil-Patel-8201"
-              className="text-colorBlue cursor-pointer underline"
+              className="text-colorBlue cursor-pointer underline font-medium"
             >
               https://github.com/Harshil-Patel-8201
             </a>{" "}
@@ -118,7 +118,7 @@ const About = () => {
             Till then check out my latest challenge :{" "}
             <a
               href="https://github.com/Harshil-Patel-8201/30-Days-with-React.js"
-              className="text-colorBlue cursor-pointer underline capitalize"
+              className="text-colorBlue cursor-pointer underline capitalize font-medium"
             >
               30 days with react.js
             </a>{" "}
