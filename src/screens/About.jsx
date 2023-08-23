@@ -13,7 +13,7 @@ const About = () => {
         </p>
         <div className="flex flex-col gap-5 text-sm text-colorDarkGray text-justify font-light">
           <p>
-            I am a dedicated Full Stack Software Developer based in Gujarat.
+            I am a dedicated Full Stack Software Developer based in Canada.
             With a strong passion for web development, I specialize in creating
             dynamic and responsive user interfaces using React.js. As a
             proficient front-end developer, I am well-versed in HTML,

@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="w-12 h-12 rounded-full bg-colorDarkWhite flex justify-center items-center">
               <MdLocationPin className="text-2xl text-colorBlack" />
             </div>
-            <p className="text-colorDarkGray">📍 Gujarat, India.</p>
+            <p className="text-colorDarkGray">📍 Toronto, Canada.</p>
           </div>
         </div>
       </div>
