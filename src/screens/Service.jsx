@@ -4,7 +4,7 @@ const Service = () => {
   return (
     <div name="service">
       {/* ------------------- Desktop ----------------------*/}
-      <div className="mt-[110px] bg-colorWhite md:flex md:px-5 hidden flex-col text-left">
+      <div className="mt-[50px] bg-colorWhite md:flex md:px-5 hidden flex-col text-left">
         <p className="mb-7 uppercase text-3xl font-semibold text-colorRed">
           📌 what i do
         </p>

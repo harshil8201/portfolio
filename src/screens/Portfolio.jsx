@@ -1,14 +1,21 @@
 import React from "react";
-import Adventure from "../assets/website images/Adventure.png";
 import PortfolioHooks from "../hooks/PortfolioHooks";
-import Precious from '../assets/website images/PRECIOUS.png'
-import Interiorlabs from '../assets/website images/INTERIORLABS.png'
-import UCHEF from '../assets/website images/UCHEF.png'
-import Lord from '../assets/website images/LORD.png'
-import Boostim from '../assets/website images/boostim.png'
-import VIRTUALITY from '../assets/website images/VIRTUALITY.png'
 
 const Portfolio = () => {
+  const Adventure =
+    "https://user-images.githubusercontent.com/83079592/239676604-56f4ef9f-16be-4116-a780-dbb39cf1e1da.png";
+  const Precious =
+    "https://user-images.githubusercontent.com/83079592/240215084-46d0cb92-090e-4031-81d6-3fc86205df13.png";
+  const Interiorlabs =
+    "https://user-images.githubusercontent.com/83079592/240487674-80ac18b4-10fb-4018-ad32-d3988f6f4f15.png";
+  const UCHEF =
+    "https://user-images.githubusercontent.com/83079592/248443988-17af7285-06a2-4d09-9d8e-105ff260aadf.png";
+  const Lord =
+    "https://user-images.githubusercontent.com/83079592/238643052-18068f4a-bf02-44ee-a4dd-4c4b6583fdf9.png";
+  const Boostim =
+    "https://user-images.githubusercontent.com/83079592/249123471-eff212be-ea72-4b00-8dd4-9331a093cac6.png";
+  const VIRTUALITY =
+    "https://user-images.githubusercontent.com/83079592/246314478-02c34de8-67e3-4e7d-abbb-596d13aedc50.png";
   return (
     <div name="portfolio">
       {/* ------------------- Desktop ----------------------*/}

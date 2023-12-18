@@ -24,11 +24,12 @@ const PortfolioHooks = ({ position, url, name, des, link }) => {
             <p>React.js</p>
             <p>Tailwind CSS</p>
           </div>
-          <a href={link}>
-            <p className="flex flex-row gap-2 text-colorDarkGray items-center text-sm cursor-pointer font-medium hover:font-semibold hover:text-colorBlack">
-              Code <ImGithub />
-            </p>
-          </a>
+          <p
+            className="flex flex-row gap-2 text-colorDarkGray items-center text-sm cursor-pointer font-medium hover:font-semibold hover:text-colorBlack"
+            onClick={() => window.open(`${link}`, "_blank")}
+          >
+            Code <ImGithub />
+          </p>
         </div>
 
         {position === 1 && (
@@ -58,11 +59,12 @@ const PortfolioHooks = ({ position, url, name, des, link }) => {
             <p>React.js</p>
             <p>Tailwind CSS</p>
           </div>
-          <a href={link}>
-            <p className="flex flex-row gap-2 text-colorDarkGray items-center text-xs cursor-pointer font-medium hover:font-semibold hover:text-colorBlack">
-              Code <ImGithub />
-            </p>
-          </a>
+          <p
+            className="flex flex-row gap-2 text-colorDarkGray items-center text-xs cursor-pointer font-medium hover:font-semibold hover:text-colorBlack"
+            onClick={() => window.open(`${link}`, "_blank")}
+          >
+            Code <ImGithub />
+          </p>
         </div>
       </div>
     </div>

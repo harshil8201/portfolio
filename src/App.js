@@ -7,6 +7,7 @@ import Portfolio from "./screens/Portfolio";
 import Service from "./screens/Service";
 import Contact from "./screens/Contact";
 import InfoCard from "./screens/InfoCard";
+import More from "./screens/More";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Skills />
         <Portfolio />
+        <More />
         <Service />
         <Contact />
       </div>

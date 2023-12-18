@@ -10,7 +10,9 @@ import MongoDB from "../assets/skills/mongodb.png";
 import Firebase from "../assets/skills/firebase.png";
 import MySql from "../assets/skills/mysql.png";
 import Figma from "../assets/skills/figma.png";
-import Wordpress from '../assets/skills/wordpress.avif'
+import Wordpress from "../assets/skills/wordpress.avif";
+import Java from "../assets/skills/java.png";
+import Python from "../assets/skills/python.png";
 
 const Skills = () => {
   return (
@@ -37,6 +39,8 @@ const Skills = () => {
           </div>
           <div className="flex w-full items-center justify-between">
             <SkillsHook skillName="Wordpress" skillUrl={Wordpress} />
+            <SkillsHook skillName="Java" skillUrl={Java} />
+            <SkillsHook skillName="Python" skillUrl={Python} />
           </div>
         </div>
       </div>
@@ -63,6 +67,10 @@ const Skills = () => {
             <SkillsHook skillName="MySQL" skillUrl={MySql} />
             <SkillsHook skillName="Figma" skillUrl={Figma} />
             <SkillsHook skillName="Wordpress" skillUrl={Wordpress} />
+            <SkillsHook skillName="Java" skillUrl={Java} />
+          </div>
+          <div className="flex w-full items-center justify-start gap-10">
+            <SkillsHook skillName="Python" skillUrl={Python} />
           </div>
         </div>
       </div>
