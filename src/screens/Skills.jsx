@@ -22,26 +22,20 @@ const Skills = () => {
         <p className="mb-7 uppercase text-3xl font-semibold text-colorRed">
           📌 my Skills
         </p>
-        <div className="flex flex-col gap-10 mt-5">
-          <div className="flex w-full items-center justify-between">
-            <SkillsHook skillName="React.js" skillUrl={ReactSkill} />
-            <SkillsHook skillName="Javascript" skillUrl={JavaScript} />
-            <SkillsHook skillName="HTML" skillUrl={HTML} />
-            <SkillsHook skillName="CSS" skillUrl={CSS} />
-            <SkillsHook skillName="Tailwind CSS" skillUrl={TailwindCSS} />
-          </div>
-          <div className="flex w-full items-center justify-between">
-            <SkillsHook skillName="Node.js" skillUrl={NodeJs} />
-            <SkillsHook skillName="MongoDB" skillUrl={MongoDB} />
-            <SkillsHook skillName="Firebase" skillUrl={Firebase} />
-            <SkillsHook skillName="MySQL" skillUrl={MySql} />
-            <SkillsHook skillName="Figma" skillUrl={Figma} />
-          </div>
-          <div className="flex w-full items-center justify-between">
-            <SkillsHook skillName="Wordpress" skillUrl={Wordpress} />
-            <SkillsHook skillName="Java" skillUrl={Java} />
-            <SkillsHook skillName="Python" skillUrl={Python} />
-          </div>
+        <div className="flex flex-wrap gap-5 mt-5">
+          <SkillsHook skillName="React.js" skillUrl={ReactSkill} />
+          <SkillsHook skillName="Javascript" skillUrl={JavaScript} />
+          <SkillsHook skillName="HTML" skillUrl={HTML} />
+          <SkillsHook skillName="CSS" skillUrl={CSS} />
+          <SkillsHook skillName="Tailwind CSS" skillUrl={TailwindCSS} />
+          <SkillsHook skillName="Node.js" skillUrl={NodeJs} />
+          <SkillsHook skillName="MongoDB" skillUrl={MongoDB} />
+          <SkillsHook skillName="Firebase" skillUrl={Firebase} />
+          <SkillsHook skillName="MySQL" skillUrl={MySql} />
+          <SkillsHook skillName="Figma" skillUrl={Figma} />
+          <SkillsHook skillName="Wordpress" skillUrl={Wordpress} />
+          <SkillsHook skillName="Java" skillUrl={Java} />
+          <SkillsHook skillName="Python" skillUrl={Python} />
         </div>
       </div>
 
@@ -50,28 +44,21 @@ const Skills = () => {
         <p className="mb-7 uppercase text-xl font-semibold text-colorRed">
           📌 my Skills
         </p>
-        <div className="flex flex-col gap-10 mt-5">
-          <div className="flex w-full items-center justify-between">
-            <SkillsHook skillName="React.js" skillUrl={ReactSkill} />
-            <SkillsHook skillName="Javascript" skillUrl={JavaScript} />
-            <SkillsHook skillName="HTML" skillUrl={HTML} />
-            <SkillsHook skillName="CSS" skillUrl={CSS} />
-          </div>
-          <div className="flex w-full items-center justify-between">
-            <SkillsHook skillName="Tailwind CSS" skillUrl={TailwindCSS} />
-            <SkillsHook skillName="Node.js" skillUrl={NodeJs} />
-            <SkillsHook skillName="MongoDB" skillUrl={MongoDB} />
-            <SkillsHook skillName="Firebase" skillUrl={Firebase} />
-          </div>
-          <div className="flex w-full items-center justify-start gap-10">
-            <SkillsHook skillName="MySQL" skillUrl={MySql} />
-            <SkillsHook skillName="Figma" skillUrl={Figma} />
-            <SkillsHook skillName="Wordpress" skillUrl={Wordpress} />
-            <SkillsHook skillName="Java" skillUrl={Java} />
-          </div>
-          <div className="flex w-full items-center justify-start gap-10">
-            <SkillsHook skillName="Python" skillUrl={Python} />
-          </div>
+        <div className="flex flex-wrap gap-5 mt-5">
+          <SkillsHook skillName="React.js" skillUrl={ReactSkill} />
+          <SkillsHook skillName="Javascript" skillUrl={JavaScript} />
+          <SkillsHook skillName="HTML" skillUrl={HTML} />
+          <SkillsHook skillName="CSS" skillUrl={CSS} />
+          <SkillsHook skillName="Tailwind CSS" skillUrl={TailwindCSS} />
+          <SkillsHook skillName="Node.js" skillUrl={NodeJs} />
+          <SkillsHook skillName="MongoDB" skillUrl={MongoDB} />
+          <SkillsHook skillName="Firebase" skillUrl={Firebase} />
+          <SkillsHook skillName="MySQL" skillUrl={MySql} />
+          <SkillsHook skillName="Figma" skillUrl={Figma} />
+          <SkillsHook skillName="Wordpress" skillUrl={Wordpress} />
+          <SkillsHook skillName="Java" skillUrl={Java} />
+          <SkillsHook skillName="Python" skillUrl={Python} />
+          
         </div>
       </div>
     </div>

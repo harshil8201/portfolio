@@ -100,7 +100,7 @@ const Home = () => {
           <p className="text-colorRed">A</p> Full Stack developer
         </p>
         <p className="mt-3 text-[10px] capitalize text-colorDarkGray">
-          Based in gujarat, india 📍
+          Based in Toronto, Canada 📍
         </p>
         <p className="mt-10 text-colorBlack text-xs uppercase font-medium">
           FIND ME HERE

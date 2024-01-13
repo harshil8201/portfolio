@@ -37,14 +37,16 @@ const Contact = () => {
             <div className="w-10 h-10 rounded-full bg-colorDarkWhite flex justify-center items-center">
               <FiMail className="text-base text-colorBlack" />
             </div>
-            <p className="text-colorDarkGray text-sm">📨 harshilpatel33h@gmail.com</p>
+            <p className="text-colorDarkGray text-sm">
+              📨 harshilpatel33h@gmail.com
+            </p>
           </div>
 
           <div className="flex flex-row items-center gap-5">
             <div className="w-10 h-10 rounded-full bg-colorDarkWhite flex justify-center items-center">
               <MdLocationPin className="text-lg text-colorBlack" />
             </div>
-            <p className="text-colorDarkGray text-sm">📍 Gujarat, India.</p>
+            <p className="text-colorDarkGray text-sm">📍 Toronto, Canada.</p>
           </div>
         </div>
       </div>
