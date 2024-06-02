@@ -78,7 +78,7 @@ const Home = () => {
 
         <img
           src={Profile}
-          className="lg:w-[270px] lg:h-[270px] md:w-[230px] md:h-[230px]  rounded-full border-4 border-colorDarkWhite"
+          className="lg:w-[300px] lg:h-[300px] md:w-[230px] md:h-[230px]  rounded-full border-4 border-colorDarkWhite"
           alt=""
         />
       </div>
