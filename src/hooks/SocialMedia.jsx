@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialMedia = ({ ImgUrl, Url, size }) => {
   return (
-    <a href={Url}>
+    <a href={Url} target="_blank">
       <div
         className={`${
           size ? `h-[${size}] w-[${size}]` : "h-[55px] w-[55px]"
