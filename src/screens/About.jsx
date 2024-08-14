@@ -13,8 +13,8 @@ const About = () => {
         </p>
         <div className="flex flex-col gap-5 text-sm text-colorDarkGray text-justify font-light">
           <p>
-            I am a dedicated Full Stack Software Developer based in Canada.
-            With a strong passion for web development, I specialize in creating
+            I am a dedicated Full Stack Software Developer based in Canada. With
+            a strong passion for web development, I specialize in creating
             dynamic and responsive user interfaces using React.js. As a
             proficient front-end developer, I am well-versed in HTML,
             JavaScript, CSS, and Tailwind CSS, ensuring visually appealing and
@@ -39,10 +39,10 @@ const About = () => {
           <p>
             My GitHub profile:{" "}
             <a
-              href="https://github.com/Harshil-Patel-8201"
+              href="https://github.com/harshil8201"
               className="text-colorBlue cursor-pointer underline font-medium"
             >
-              https://github.com/Harshil-Patel-8201
+              https://github.com/harshil8201
             </a>{" "}
             🔗
           </p>
@@ -55,7 +55,7 @@ const About = () => {
           <p>
             Till then check out my latest challenge :{" "}
             <a
-              href="https://github.com/Harshil-Patel-8201/30-Days-with-React.js"
+              href="https://github.com/harshil8201/30-Days-with-React.js"
               className="text-colorBlue cursor-pointer underline capitalize font-medium"
             >
               30 days with react.js
@@ -101,10 +101,10 @@ const About = () => {
           <p>
             My GitHub profile:{" "}
             <a
-              href="https://github.com/Harshil-Patel-8201"
+              href="https://github.com/harshil8201"
               className="text-colorBlue cursor-pointer underline font-medium"
             >
-              https://github.com/Harshil-Patel-8201
+              https://github.com/harshil8201
             </a>{" "}
             🔗
           </p>
@@ -117,7 +117,7 @@ const About = () => {
           <p>
             Till then check out my latest challenge :{" "}
             <a
-              href="https://github.com/Harshil-Patel-8201/30-Days-with-React.js"
+              href="https://github.com/harshil8201/30-Days-with-React.js"
               className="text-colorBlue cursor-pointer underline capitalize font-medium"
             >
               30 days with react.js

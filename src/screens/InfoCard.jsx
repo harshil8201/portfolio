@@ -33,7 +33,7 @@ const InfoCard = () => {
           <SocialMedia
             size={"45px"}
             ImgUrl={Github}
-            Url={"https://github.com/Harshil-Patel-8201"}
+            Url={"https://github.com/harshil8201"}
           />
           {/* <SocialMedia
             size={"45px"}
@@ -48,18 +48,18 @@ const InfoCard = () => {
           <SocialMedia
             size={"45px"}
             ImgUrl={LinkedIn}
-            Url={"https://www.linkedin.com/in/harshil-patel-312186210/"}
+            Url={"https://www.linkedin.com/in/harshil8201/"}
           />
-          <SocialMedia
+          {/* <SocialMedia
             size={"45px"}
             ImgUrl={Upwork}
             Url={
               "https://www.upwork.com/freelancers/~01c36fc5954ec77e17?viewMode=1"
             }
-          />
+          /> */}
         </div>
         <p className="text-center text-sm text-colorBlack font-light capitalize">
-          © copyright 2023. All rights reserved.
+          © copyright 2024. All rights reserved.
         </p>
         <p className="flex flex-row items-center text-center text-sm text-colorBlack font-light gap-1 capitalize">
           Design by <p className="text-colorRed font-normal"> Harshil Patel</p>
@@ -86,7 +86,7 @@ const InfoCard = () => {
           <SocialMedia
             size={"40px"}
             ImgUrl={Github}
-            Url={"https://github.com/Harshil-Patel-8201"}
+            Url={"https://github.com/harshil8201"}
           />
           {/* <SocialMedia
             size={"40px"}
@@ -101,18 +101,18 @@ const InfoCard = () => {
           <SocialMedia
             size={"40px"}
             ImgUrl={LinkedIn}
-            Url={"https://www.linkedin.com/in/harshil-patel-312186210/"}
+            Url={"https://www.linkedin.com/in/harshil8201/"}
           />
-          <SocialMedia
+          {/* <SocialMedia
             size={"40px"}
             ImgUrl={Upwork}
             Url={
               "https://www.upwork.com/freelancers/~01c36fc5954ec77e17?viewMode=1"
             }
-          />
+          /> */}
         </div>
         <p className="text-center text-[10px] text-colorBlack font-light capitalize">
-          © copyright 2023. All rights reserved.
+          © copyright 2024. All rights reserved.
         </p>
         <p className="flex flex-row items-center text-center text-[10px] text-colorBlack font-light gap-1 capitalize mx-auto">
           Design by <p className="text-colorRed font-normal"> Harshil Patel</p>
