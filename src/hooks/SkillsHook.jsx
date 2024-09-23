@@ -5,6 +5,7 @@ const SkillsHook = ({ skillUrl, skillName }) => {
     <div>
       <div className="w-[150px] hidden md:flex flex-col gap-2 justify-center items-center">
         <img
+          loading="lazy"
           src={skillUrl}
           className="w-[70px] h-[70px] object-contain bg-transparent"
           alt={skillName}

@@ -9,6 +9,7 @@ const MoreHooks = ({ projectUrl, imgUrl, websiteName }) => {
     >
       {/* Image */}
       <img
+        loading="lazy"
         src={imgUrl}
         className="w-full h-[183px] object-top object-cover rounded-md"
         alt="img"

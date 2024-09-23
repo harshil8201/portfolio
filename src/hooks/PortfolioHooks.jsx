@@ -7,6 +7,7 @@ const PortfolioHooks = ({ position, url, name, des, link }) => {
       <div className="hidden md:flex flex-row gap-20 md:gap-5 items-center">
         {position === 0 && (
           <img
+            loading="lazy"
             src={url}
             className="w-[380px] h-[250px] object-cover object-top rounded-xl drop-shadow-xl"
             alt=""
