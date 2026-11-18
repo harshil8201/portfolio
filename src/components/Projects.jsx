@@ -9,7 +9,7 @@ import { Section, Tag } from "./ui";
 export default function Projects() {
   return (
     <Section id="projects" eyebrow="Projects" title="More things I've built">
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
         {projects.map((project) => (
           <a
             key={project.name}
@@ -26,12 +26,12 @@ export default function Projects() {
                 className="h-44 w-full border-b border-line object-cover object-top"
               />
             )}
-            <div className="flex flex-1 flex-col p-6">
+            <div className="flex flex-1 flex-col p-5 sm:p-6">
               <div className="flex items-center justify-between gap-3">
                 <h3 className="text-lg font-bold text-ink">{project.name}</h3>
                 <FaGithub aria-hidden="true" className="text-xl text-slate group-hover:text-navy" />
               </div>
-              <p className="mt-2 flex-1 text-slate">{project.description}</p>
+              <p className="mt-2 flex-1 text-sm text-slate sm:text-base">{project.description}</p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {project.stack.map((tech) => (
                   <Tag key={tech}>{tech}</Tag>

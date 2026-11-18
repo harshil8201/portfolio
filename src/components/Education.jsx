@@ -8,7 +8,7 @@ import { Section } from "./ui";
 export default function Education() {
   return (
     <Section id="education" eyebrow="Education" title="Learning">
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-4 sm:gap-6 md:grid-cols-2">
         <div className="rounded-2xl border border-line bg-white p-6">
           <h3 className="flex items-center gap-2 font-bold text-ink">
             <HiOutlineAcademicCap aria-hidden="true" className="text-xl text-navy" />

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
  */
 export function Section({ id, eyebrow, title, children, className = "" }) {
   return (
-    <section id={id} className={`scroll-mt-24 py-16 sm:py-20 ${className}`}>
+    <section id={id} className={`scroll-mt-24 py-10 sm:py-14 ${className}`}>
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -22,11 +22,11 @@ export function Section({ id, eyebrow, title, children, className = "" }) {
           </p>
         )}
         {title && (
-          <h2 className="mt-2 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
+          <h2 className="mt-2 text-2xl font-bold tracking-tight text-ink sm:text-4xl">
             {title}
           </h2>
         )}
-        <div className="mt-10">{children}</div>
+        <div className="mt-6 sm:mt-8">{children}</div>
       </motion.div>
     </section>
   );
@@ -56,7 +56,7 @@ export function ButtonLink({ href, children, variant = "primary", icon: Icon }) 
     <a
       href={href}
       {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
-      className={`inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition-colors ${styles}`}
+      className={`inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm sm:px-5 sm:py-2.5 font-semibold transition-colors ${styles}`}
     >
       {Icon && <Icon aria-hidden="true" className="text-base" />}
       {children}
