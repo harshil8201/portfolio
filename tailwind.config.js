@@ -3,19 +3,20 @@ module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
+      // Palette matches the navy used on the resume and cover letters.
       colors: {
-        colorWhite: "#FFFFFF",
-        colorDarkWhite: "#EDF1F4",
-        colorBlack: "#000000",
-        colorDarkGray: "#767676",
-        colorRed: "#DC0035",
-        colorLightBlack: "#393939",
-        colorBlue: "#0075FF",
+        paper: "#F7F9FC", // page background
+        ink: "#0F172A", // headings and primary text
+        slate: "#475569", // body text
+        line: "#E2E8F0", // borders and dividers
+        navy: {
+          DEFAULT: "#1F3A5F",
+          dark: "#152A46",
+        },
+        accent: "#2F6FDE", // small highlights: eyebrows, bullets, ticks
       },
-      screens: {
-        mobile: "640px",
-        tablet: "768px",
-        laptop: "1024px",
+      fontFamily: {
+        sans: ["Inter", "system-ui", "-apple-system", "Segoe UI", "sans-serif"],
       },
     },
   },

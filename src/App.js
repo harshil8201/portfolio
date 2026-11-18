@@ -1,38 +1,31 @@
-import "./App.css";
-import NavBar from "./screens/NavBar";
-import About from "./screens/About";
-import Home from "./screens/Home";
-import Skills from "./screens/Skills";
-import Portfolio from "./screens/Portfolio";
-import Service from "./screens/Service";
-import Contact from "./screens/Contact";
-import InfoCard from "./screens/InfoCard";
-import More from "./screens/More";
+/**
+ * Page layout: one centred column of sections in reading order.
+ * All text lives in src/data/profile.js.
+ */
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import FeaturedProject from "./components/FeaturedProject";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Contact from "./components/Contact";
 
-function App() {
+export default function App() {
   return (
-    <div className="App flex flex-col">
-      <NavBar />
-      <div className="w-[800px] lg:flex hidden flex-col mx-auto">
-        <Home />
+    <div className="min-h-screen bg-paper text-ink">
+      <Navbar />
+      <main className="mx-auto max-w-5xl px-5 sm:px-8">
+        <Hero />
         <About />
+        <FeaturedProject />
+        <Experience />
         <Skills />
-        <Portfolio />
-        <More />
-        <Service />
+        <Projects />
+        <Education />
         <Contact />
-      </div>
-      <div className="w-screen flex lg:hidden flex-col mx-auto px-[15px]">
-        <Home />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Service />
-        <Contact />
-      </div>
-      <InfoCard />
+      </main>
     </div>
   );
 }
-
-export default App;
